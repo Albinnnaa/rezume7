@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калбодова Албина - Сайт-резюме</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Навигационная панель -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">К.А.</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#courses">Курсы</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#practice">Практика</a></li>
+                <li><a href="#selfdev">Саморазвитие</a></li>
+                <li><a href="#about">Обо мне</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Шапка сайта -->
+    <header class="header" id="home">
+        <div class="header-container">
+            <div class="header-image">
+                <img src="images/profile.jpg" alt="Фото Албины Калбодовой" class="profile-img">
+            </div>
+            <div class="header-content">
+                <h1 class="header-name">Калбодова Албина Амадбековна</h1>
+                <h2 class="header-title">Студент-разработчик: Angular • DevOps • Информационная безопасность</h2>
+                <p class="header-pitch">Создаю надёжные веб-приложения и автоматизирую инфраструктуру. Умею учиться быстро и решать нетривиальные задачи.</p>
+                <div class="header-links">
+                    
+                </div>
+                <a href="#projects" class="cta-button">Смотреть проекты</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+                <!-- Раздел: Курсы -->
+<section class="section courses" id="courses">
+    <div class="container">
+        <h2 class="section-title">Пройденные курсы</h2>
+        <p class="section-subtitle">Курсы от вендоров: Сбер, VK, Яндекс</p>
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Промпт-инжиниринг и LLM</h3>
+                    <span class="course-platform">СберУниверситет</span>
+                </div>
+                <p class="course-desc">Промпт-инжиниринг, работа с LLM, RAG, GigaChain</p>
+                <div class="course-certificate">
+                    <img src="images/loll.jpg" alt="Сертификат Сбер" class="cert-img">
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Frontend-разработка</h3>
+                    <span class="course-platform">Айтилогия</span>
+                </div>
+                <p class="course-desc">HTML, CSS, JavaScript, React, адаптивная вёрстка</p>
+                <div class="course-certificate">
+                    <img src="images/front.jpeg" alt="Сертификат VK" class="cert-img">
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Frontend шаг за шагом</h3>
+                    <span class="course-platform">Яндекс</span>
+                </div>
+                <p class="course-desc"></p>
+                <div class="course-certificate">
+                    <img src="images/llll.png" alt="Сертификат Яндекс" class="cert-img">
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Алгоритмы и структура данных</h3>
+                    <span class="course-platform">VK Education</span>
+                </div>
+                <p class="course-desc"></p>
+                <div class="course-certificate">
+                    <img src="images/VK.jpeg" alt="Сертификат VK Education" class="cert-img">
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>ЯGo-3 шаг за шагом</h3>
+                    <span class="course-platform">Яндекс Лицей</span>
+                </div>
+                <img src="images/go.jpg" alt="Сертификат Яндекс Лицей" class="cert-img">
+                <p class="course-desc"></p>
+                <div class="course-certificate">
+                    <img src="images/yandex-cloud.jpg" alt="Сертификат Яндекс Лицей" class="cert-img">
+                </div>
+            </div>
+
+            <!-- ===== НОВЫЕ СЕРТИФИКАТЫ ===== -->
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Генеративное искусство</h3>
+                    <span class="course-platform">СберУниверситет</span>
+                </div>
+                <p class="course-desc">[Краткое описание курса]</p>
+                <div class="course-certificate">
+                    <img src="images/certificate.jpg" alt="Сертификат [Платформа]" class="cert-img">
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Раздел: Проекты -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Мои проекты</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-badge">Курсовая</div>
+                        <h3>Документооборот на Django</h3>
+                        <p class="project-desc">Система документооборота для команды разработчиков. Реализована авторизация, разграничение прав, CRUD-операции.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-icons">
+                            <span class="project-icon-item"><i class="fab fa-github"></i> Репозиторий</span>
+                            <a href="https://github.com/Albinnnaa/kursovoy" class="project-icon-item"></a>
+                            <span class="project-icon-item"><i class="fas fa-diagram-project"></i> Диаграммы</span>
+                            <span class="project-icon-item"><i class="fas fa-database"></i> Дамп БД</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-badge">Курсовая</div>
+                        <h3>Индивидуальный проект на Laravel</h3>
+                        <p class="project-desc">Разработка индивидуального веб-приложения на Laravel с использованием БД и авторизацией.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Blade</span>
+                        </div>
+                        <div class="project-icons">
+                            <span class="project-icon-item"><i class="fab fa-github"></i> Репозиторий</span>
+                            <span class="project-icon-item"><i class="fas fa-diagram-project"></i> ER-диаграмма</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел: Практика -->
+        <section class="section practice" id="practice">
+            <div class="container">
+                <h2 class="section-title">Производственная практика</h2>
+                <div class="practice-content">
+                    <div class="practice-info">
+                        <p>Проходила производственную практику в  Судебном участке 121 Люберецкого судебного района Московской области</p>
+                    </div>
+
+                    <div class="practice-docs">
+                        
+                    </div>
+
+                    <div class="practice-gallery">
+                        <img src="images/прак.jpg" alt="Практика 1" class="practice-img">
+                        <img src="images/tik.jpg" alt="Практика 2" class="practice-img">
+                        <img src="images/ka.jpg" alt="Практика 3" class="practice-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел: Саморазвитие -->
+        <section class="section selfdev" id="selfdev">
+            <div class="container">
+                <h2 class="section-title">Дорожная карта саморазвития</h2>
+                <div class="roadmap">
+                    <div class="roadmap-item">
+                        <div class="roadmap-icon">
+                            <i class="fab fa-angular"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>Frontend</h3>
+                            <p>HTML, CSS,  Angular, </p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">Angular</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>DevOps</h3>
+                            <p>Docker, Kubernetes, Terraform, GitLab CI/CD, GitOps</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">Terraform</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>Безопасность</h3>
+                            <p>Сетевая безопасность, DDoS-защита, шифрование, DevSecOps</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Network</span>
+                            
+                                <span class="skill-tag">DevSecOps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Конференции и мероприятия (1С) -->
+<div class="events-section">
+    <h3 class="events-title">Конференции и мероприятия</h3>
+    <p class="events-subtitle">Мероприятия по 1С, которые я посетила</p>
+    <div class="events-grid">
+        <div class="event-card">
+            <img src="images/1c-conf.jpg" alt="Конференция 1С" class="event-img">
+            <p class="event-desc">Конференция 1С: Образование 2026</p>
+            <span class="event-date">1С, 2026</span>
+        </div>
+        <!-- Мастер-класс 1С УДАЛЁН -->
+    </div>
+</div>
+
+               <!-- Учебные задания -->
+<div class="study-section">
+    <h3 class="study-title">Учебные задания</h3>
+    <div class="study-links">
+       
+        
+        
+        
+        <!-- 3️⃣ Ссылка на Colab: Численные методы -->
+        <a href="https://colab.research.google.com/drive/1NJDKtgSawYrGVlIjuo1twoWliO3To_Gs?usp=sharing" class="study-link">
+            <i class="fas fa-microchip"></i> Colab: Численные методы (корень, логистическая регрессия)
+        </a>
+        
+        <!-- 4️⃣ Ссылка на Colab: Свой датасет -->
+        <a href="https://colab.research.google.com/drive/12Rr_51fpvn8081_QWbFmJOSeKFQZZ4pj?usp=sharing" class="study-link">
+            <i class="fas fa-database"></i> Colab: Свой датасет
+        </a>
+         <a href="https://docs.google.com/document/d/1llq-q2qk9RLIrqIZgIzZ3xDYsOex_5kGEbadWyMRCmo/edit?usp=drive_link" class="study-link">
+            <i class="fas fa-database"></i> Ссылка на конспек 
+        </a>
+    </div>
+</div>
+
+        <!-- Раздел: Обо мне -->
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Учусь в ГБПОУ МО «Люберецкий техникум имени Ю.А. Гагарина» по специальности 09.02.07 «Информационные системы и программирование».</p>
+                        <p>Заинтересована в frontend, DevOps, информационной безопасности и генеративных технологиях.</p>
+                        <a href="https://docs.google.com/presentation/d/1MB1tk-HJPMybFemui_jxku1oM7O_10t3sldOmokXBxw/edit?usp=drive_link" target="_blank" class="social-link">
+    <i class="fas fa-file-pdf"></i> Резюме (PDF)
+</a>
+                        <h3>Навыки</h3>
+                        <div class="skills-container" id="skills">
+                            <div class="skill-category">
+                                <h4>Языки программирования:</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">JavaScript</span>
+                                    <span class="skill-item">TypeScript</span>
+                                    <span class="skill-item">SQL</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="social-links">
+    <a href="https://github.com/Albinnnaa" target="_blank" class="social-link">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="http://gedsf-213-182-213-236.free.pinggy.net/select/" target="_blank" class="social-link">
+        <i class="fab fa-python"></i> Django проект
+    </a>
+    <a href="http://oaypy-213-182-213-236.free.pinggy.net/" target="_blank" class="social-link">
+        <i class="fab fa-laravel"></i> Laravel проект
+    </a>
+    
+</div>
+                            <div class="skill-category">
+                                <h4>Инструменты и технологии:</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">Angular</span>
+                                    <span class="skill-item">Git</span>
+                            
+                                    
+    
+                                    <span class="skill-item">MySQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Soft skills:</h4>
+                                <div class="skill-items">
+                                    <span class="skill-item">Тайм-менеджмент</span>
+                                    <span class="skill-item">Дисциплина</span>
+                                    <span class="skill-item">Работа в команде</span>
+                                    <span class="skill-item">Коммуникабельность</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Социальная активность -->
+                        <div class="social-activity">
+                            <h3>Общественная деятельность</h3>
+                            <ul class="activity-list">
+                                
+                               <li>
+    <i class="fas fa-video"></i> 
+    <a href="https://vk.com/wall-103240340_2956" target="_blank" class="activity-link">
+        Видео для дня открытых дверей техникума
+    </a>
+</li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="about-links">
+                        <h3></h3>
+                        <div class="social-links">
+                           
+                          
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>ГБПОУ МО «Люберецкий техникум имени Героя Советского Союза, лётчика-космонавта Ю.А. Гагарина»</p>
+            <div class="footer-links">
+               
+               <a href="https://ru.yougile.com/board/axxlshbu5xnk" target="_blank" class="footer-link">
+    <i class="fas fa-tasks"></i> YouGile
+</a>
+                
+            </div>
+            <p class="footer-year">Год окончания обучения: 2027</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для изображений -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <script src="skript.js"></script>
+</body>
+</html>
